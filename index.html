@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Week 2</title>
+        </head>
+        <body>
+            <h1>Enhanced HTML Elements</h1>
+            <h2>Definition List</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Hyper Text Markup Language.</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets.</dd>
+                <dt>JavaScript</dt>
+                <dd>A programming language for web development.</dd>
+            </dl>
+            <h2>Nested Lists</h2>
+            <ol>
+                <li>Vehicles
+                    <ol type="a">
+                        <li>Transportation
+                            <ol type="i">
+                                <li>Sedan</li>
+                                <li>SUV</li>
+                                <li>Truck</li>
+                            </ol>
+                        </li>
+                        <li>Cars
+                            <ol type="1">
+                                <li>Honda</li>
+                                <li>Toyota</li>
+                                <li>Nissan</li>
+                                <li>Benz</li>
+                            </ol>
+                <li>Fruits</li> 
+                    <ol type="a">
+                        <li>Apple</li>
+                        <li>Banana</li>
+                        <li>Orange</li>
+                        <li>Grapes</li>
+                    </ol>                            
+                </li>
+            </ol>
+            <h2>Multimedia</h2>
+            <h3>Images</h3>
+            <img src="https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg" alt="concrete-road-between-trees" width="500" height="350">
+            <h3>Video</h3>
+            <audio controls>
+                <source src="https://videos.pexels.com/video-files/30809322/13177208_1080_1920_30fps.mp4" type="Video/mp4">
+                Your browser does not support audio playback.
+            </audio>
+            <h3>Audio</h3>
+            <video width="640" height="360" controls>
+                <source src="Images/Nightbirde.m4a.mp3" type="Audio/mpeg">
+                Your browser does not support video playback.
+            </video>
+            <h2>Tables</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Country</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Yusuph Joe</td>
+                        <td>Male</td>
+                        <td>Kenya</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>Star Fess</td>
+                        <td>Female</td>
+                        <td>U.S</td>
+                        <td>25</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Forms</h2>
+            <form action="https://example.com/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="Male"  name="gender" value="Male">
+                <input type="radio" id="Female"  name="gender" value="Female">
+                <label for="country">Country:</label>
+                <br><br>
+                <select id="country" name="country">
+                    <option value="congo">Congo</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="mozabique">Mozabique</option>
+                </select>
+                <br><br>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </body>
+    </html>
